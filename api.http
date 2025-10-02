@@ -1,0 +1,47 @@
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/7
+
+###
+POST http://localhost:3000/products/
+Content-Type: application/json
+
+{
+    "name": "Arroz São João 5kg Tipo 1",
+    "price": 24.45
+}
+
+###
+PATCH  http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+    "name": "Arroz",
+    "price": 40
+}
+
+###
+DELETE   http://localhost:3000/products/
+
+
+###
+POST http://localhost:3000/stock-inputs
+Content-Type: application/json
+
+{
+    "product_id": 7,
+    "quantity": 20,
+    "date": "2000-01-01"
+}
+
+
+###
+POST http://localhost:3000/stock-outputs
+Content-Type: application/json
+
+{
+    "product_id": 7,
+    "quantity": -10,
+    "date": "2000-01-01"
+}
