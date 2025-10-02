@@ -15,7 +15,7 @@ Este projeto implementa endpoints para CRUD de produtos e movimentações de est
 
 ---
 
-## 📦 Pré-requisitos
+## Pré-requisitos
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="20"/> **Node.js** 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="20"/> **npm**   
